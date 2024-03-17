@@ -1,0 +1,52 @@
+/* .aboutpageh1 {
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeh1 { 
+    color: blue;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar li { 
+    list-style: none;
+}
+
+.content-box {
+    padding: 20px;
+    border: 2px solid #333;
+    cursor: pointer;
+    margin-top: 20px;
+}
+ */
+
+.headernav {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    
+}
+
+.headernav li { 
+    font-size: large;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+}
+
+.nav-link:hover { 
+    color: rgb(0, 132, 255);
+    
+}

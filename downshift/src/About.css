@@ -1,0 +1,104 @@
+.cinfo {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 50vh; /* Adjust height as needed */
+  }
+
+  /* @media only screen and (max-width: 600px) {
+    .cinfo { 
+        display: none;
+    } */ /*for when screens reaches phone size
+
+  }*/
+  
+  .aboutpageh1 {
+    margin-bottom: 20px; /* Add space below the h1 */
+  }
+  
+  .navbar {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    text-align: center; /* Center list items horizontally */
+  }
+  
+  .navbar li {
+    margin-bottom: 10px; /* Add space between list items */
+  }
+
+  .navbar li:hover { 
+    
+
+    transform: translateY(-5px);
+  }
+  
+  .widget { 
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center cards horizontally */
+    align-items: center; /* Center cards vertically */
+    gap: 20px;
+
+  }
+
+  .content1  { 
+    
+    background-color: #939393;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content2 { 
+    
+    background-color: #b8b8b8;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content1:hover {
+    transform: translateY(-5px);
+}
+
+.content2:hover {
+    transform: translateY(-5px);
+}
+
+.libraryButton {
+  background-color: rgb(72, 72, 72, 0.8);
+  border: solid black 2px;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  outline: none; /* Remove the default gray border */
+  appearance: none; /* Remove any default styling */
+  border-radius: 2px; /* Add border-radius for a rounded look */
+}
+
+.libraryButton:hover {
+  background-color: rgb(13, 35, 53); /* Darken the background color on hover */
+}
+
+/* About.css */
+.about-page-background {
+  background-color: rgb(40, 40, 40); /* Change to whatever background color you prefer */
+  color: white; /* Adjust text color for better visibility */
+}
+
+
+
