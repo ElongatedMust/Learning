@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
 import Header from './Header';
 import './About.css';
-import DSlogo from './images/DSlogo.png';
+
 
 const About = () => {
   useEffect(() => {
@@ -35,7 +35,7 @@ const About = () => {
 
       <div className='widget'>
         <div className='content1'>
-          <img src={DSlogo} alt="" />
+          <img src='/images/DSlogo.png' alt="" />
           test
           test <br />
           test
@@ -43,7 +43,7 @@ const About = () => {
           test
         </div>
         <div className='content2'>
-          <img src={DSlogo} alt="" />
+          <img src='/images/DSlogo.png' alt="" />
           test
         </div>
       </div>

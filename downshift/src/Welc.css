@@ -4,6 +4,42 @@
     align-items: center;
     margin-top: 100px;
     text-decoration: none;
+    transition: transform 0.2s; /* Add smooth transition effect */
+    z-index: 1;
+}
+    
+.welcbutton:hover img {
+    transform: scale(1.05);
+}
+.welcbutton:active { 
+    transform: scale(0.9);
+}
+
+
+
+.background-container {
+   
+    /* background-size: 100% auto; Double the width of the background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; /* Set the height of the container to the height of the viewport */
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+   
     
 }
 
+.txt { 
+    height: 100vh;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-family:"Shrikhand", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 100px;
+    color: rgb(39, 39, 39);
+    
+
+}
